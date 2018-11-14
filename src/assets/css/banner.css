@@ -1,0 +1,77 @@
+/*body{background-color: #1F1F1F}*/
+.banner {
+	width: 7.5rem;
+	height: 3.96rem;
+	background-color: aqua;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.imgbox {
+	width: 7.5rem;
+	height: 3.96rem;
+	position: relative;
+	background-color: #222222;
+	overflow: hidden;
+}
+.img {
+	width: 7.5rem;
+	height: 3.96rem;
+	background-size: cover;
+	position: absolute;
+	display: none;
+	/*left: 50%;*/
+	/*margin-left: -683px;*/
+}
+.im {
+	display: block;
+}
+.change {
+	height: 1rem;
+	display: block;
+	position: absolute;
+	z-index: 20;
+	opacity: 0.4;
+	transition: 0.4s;
+	top: 50%;
+	margin-top: -50px
+}
+.change:hover {
+	opacity: 1;
+}
+.pre {
+	left: 1%;
+}
+.next {
+	right: 1%;
+}
+.cirbox {
+	width: 88px;
+	position: absolute;
+	bottom: 15px;
+	z-index: 10;
+	left: 50%;
+	margin-left: -44px;
+	cursor: pointer;
+}
+.cir {
+	width: 6px;
+	height: 6px;
+	background-color: white;
+	opacity: 1;
+	float: left;
+	border-radius: 6px;
+	margin: 0 5px 0 5px;
+	cursor: pointer;
+}
+.cir:hover {
+	background-color: cyan;
+	transition: 0.8s;
+}
+.cr {
+	opacity: 1;
+	background:#ff4d43;
+}
+.cr:hover {
+	background-color: white;
+}
